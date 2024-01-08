@@ -1,0 +1,44 @@
+.container-carousel {
+    /* background-color: var(--color2); */
+    position: relative;
+    display: grid;
+    grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+    justify-content: space-evenly;
+}
+.container-controls {
+    display: none;
+}
+
+/* ===>>> SCREEN TABLET/MOBILE <<<=== */
+@media (max-width: 992px) {
+    .container-carousel {
+        width: 400%;
+        grid-template-columns: 20% 20% 20% 20%;
+        justify-content: space-around;
+    }
+    .container-controls {
+        width: 23%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 1%
+    }
+    .ctrl-right, .ctrl-left {
+        font-size: xx-large;
+        display: flex;
+        align-items: center;
+        height: 25%;
+    }
+    .ctrl-icons {
+        border-radius: 50%;
+        color: var(--color3);
+    }
+    .ctrl-icons:hover {
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 25%);
+        color: var(--color2);
+        cursor: pointer;
+    }
+}

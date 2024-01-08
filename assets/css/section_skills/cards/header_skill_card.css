@@ -1,0 +1,10 @@
+.header-skill-card {
+    background-color: var(--color5);
+    width: 50%;
+    margin: auto;
+}
+.image-skill-card {
+    width: 100%;
+    margin: 10px auto;
+
+}

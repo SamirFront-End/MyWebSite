@@ -1,0 +1,11 @@
+.header-card {
+    display: flex;
+    justify-content: center;
+}
+.container-img-card {
+    width: 60%;
+    margin-top: 10px;
+}
+.img-card {
+    width: 100%;
+}

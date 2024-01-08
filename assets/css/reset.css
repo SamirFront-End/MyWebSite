@@ -1,0 +1,5 @@
+/* eliminacion de margen y relleno */
+body {
+    margin: 0px;
+    padding: 0px;
+}

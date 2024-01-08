@@ -1,0 +1,8 @@
+.title-skill-card {
+    width: 95%;
+    margin: auto;
+}
+.h1-skill-card {
+    text-align: center;
+    font-family: var(--font1);
+}

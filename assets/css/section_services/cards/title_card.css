@@ -1,0 +1,8 @@
+.container-title-card {
+    width: 90%;
+    margin: auto;
+}
+.title-service {
+    font-family: var(--font2);
+    text-align: center;
+}

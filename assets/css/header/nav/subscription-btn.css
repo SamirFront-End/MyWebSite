@@ -1,0 +1,48 @@
+.btn-subscription {
+    background-color: var(--color1);
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px 0px;
+    height: 40px;
+    border-radius: 5px;
+}
+.btn-subscription:hover {
+    cursor: pointer;
+    background-color: var(--color2);
+}
+.icon-subscription, .text-subscription {
+    display: flex;
+    align-items: center;
+}
+.icon-btn-subscription {
+    color: var(--color5);
+}
+.p-subscription {
+    color: var(--color5);
+    font-family: var(--font2);
+}
+
+/* ===>>> SCREEN TABLET/MOBILE <<<=== */
+@media (max-width: 900px) {
+    .container-btn-suscription {
+        position: absolute;
+        top: 0;
+        right: 5px;
+    }
+    .btn-subscription  {
+        background-color: var(--color5);
+    }
+    .icon-btn-subscription {
+        color: var(--color1);
+    }
+    .p-subscription {
+        color: var(--color2);
+        font-family: var(--font2);
+    }
+    .btn-subscription:hover {
+        background-color: var(--color3);
+    }
+    .p-subscription:hover {
+        background-color: var(--color3);
+    }
+}

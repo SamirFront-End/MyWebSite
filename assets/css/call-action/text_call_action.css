@@ -1,0 +1,12 @@
+.p-call-action {
+    font-family: var(--font2);
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+/* ===>>> SCREEN TABLET/MOBILE <<<=== */
+@media (max-width: 768px) {
+    .p-call-action {
+        display: none;
+    }
+}

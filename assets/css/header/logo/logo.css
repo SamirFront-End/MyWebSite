@@ -1,0 +1,19 @@
+.container-logo {
+    display: none;
+}
+
+/* ===>>> SCREEN TABLET/MOBILE <<<=== */
+@media (max-width: 900px) {
+    .container-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../../../images/Cloudy.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logo {
+        width: 40%;
+        margin-top: 60px;
+    }
+}    

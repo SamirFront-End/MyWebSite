@@ -1,0 +1,106 @@
+.container-menu {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 40% 10%;
+}
+.menu-desktop {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.link-menu-desktop {
+    text-decoration: none;
+    font-family: var(--font4);
+    color: var(--color2);
+}
+.container-logo-mobile, .menu-mobile-networks, .menu-footer-mobile {
+    display: none;
+}
+/* ===>>> SCREEN TABLET/MOBILE <<<=== */
+@media (max-width: 900px) {
+    .menu-hamburger {
+        position: absolute;
+        top: 28px;
+        display: grid;
+    }
+    .menu-hamburger:hover {
+        cursor: pointer;
+    }
+    .item-hamburger {
+        background-color: var(--color1);
+        width: 24px;
+        height: 3px;
+        margin: 2px 8px;
+        border-radius: 2px;
+        transform-origin: 4px 0.5px;
+        transition: all 0.2s ease-in-out;
+        z-index: 1;
+    }
+    .close .item-hamburger {
+        transform: rotate(45deg) translate(4px, 0px);
+        background-color: var(--color5);
+    }
+    .close .item-hamburger:nth-child(2) {
+        transform: translateX(-500%);
+    }
+    .close .item-hamburger:nth-child(3) {
+        transform: rotate(-45deg) translate(1px, 1px);
+    }
+    .open {
+        transform: translateX(-500%);
+    }
+    .container-menu {
+        background-color: var(--color1);
+        opacity: .98;
+        width: 100%;
+        margin: auto;
+        grid-template-columns: 100%;
+        position: absolute;
+        transition: all 0.2s ease-in-out;
+        top: 0px;
+        z-index: 1;
+    }
+    .menu-desktop {
+        display: grid;
+        justify-content: center;
+    }
+    .container-logo-mobile {
+        display: grid;
+    }
+    .link-menu-desktop {
+        margin: 10px 0;
+        text-align: center;
+        color: var(--color5);
+    }
+    .menu-mobile-networks {
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        border-top: 1px solid var(--color5);
+        border-bottom: 1px solid var(--color5);
+    }
+    .networks-menu-mobile {
+        text-decoration: none;
+        color: var(--color5);
+        font-size: xx-large;
+        margin: 15px 0px;
+    }
+    .menu-footer-mobile {
+        display: block;
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .fa-envelope-open-text {
+        color: var(--color5);
+    }
+    .a-menu-footer, .p-menu-footer-location {
+        color: var(--color5);
+        font-family: var(--font1);
+    }
+}

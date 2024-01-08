@@ -1,0 +1,20 @@
+.skill-card {
+    background-color: var(--color5);
+    width: 25%;
+    margin-bottom: 40px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 25%);
+}
+
+/* ===>>> SCREEN TABLET <<<=== */
+@media (min-width: 769px) and (max-width: 1115px) {
+    .skill-card {
+        width: 25%;
+    }
+}
+
+/* ===>>> SCREEN MOBILE <<<=== */
+@media (max-width: 768px) {
+    .skill-card {
+        width: 45%;
+    }
+}

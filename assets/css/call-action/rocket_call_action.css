@@ -1,0 +1,16 @@
+.rocket-call-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-rocket {
+    width: 350px;
+    margin: auto;
+}
+
+/* ===>>> SCREEN TABLET/MOBILE <<<=== */
+@media (max-width: 992px) {
+    .rocket-call-action {
+        display: none;
+    }
+}

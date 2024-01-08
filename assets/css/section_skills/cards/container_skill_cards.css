@@ -1,0 +1,8 @@
+.container-skill-cards {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 4.16%;
+    justify-content: space-between;
+}

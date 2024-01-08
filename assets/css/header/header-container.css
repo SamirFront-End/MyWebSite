@@ -1,0 +1,6 @@
+.container-header {
+    background-image: url(../../images/Cloudy.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

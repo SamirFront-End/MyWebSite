@@ -1,0 +1,8 @@
+.container-paragraph-card {
+    width: 90%;
+    margin: auto;
+}
+.p-card {
+    text-align: left;
+    font-family: var(--font4);
+}

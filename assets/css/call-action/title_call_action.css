@@ -1,0 +1,14 @@
+.title-call-action {
+    margin-top: 100px;
+}
+.h1-call-action {
+    font-family: var(--font2);
+    font-size: xxx-large;
+}
+
+/* ===>>> SCREEN TABLET/MOBILE <<<=== */
+@media (max-width: 900px) {
+    .h1-call-action {
+        text-align: center;
+    }
+}
