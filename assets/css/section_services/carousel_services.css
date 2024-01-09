@@ -34,6 +34,7 @@
     }
     .ctrl-icons {
         border-radius: 50%;
+        background-color: var(--color5);
         color: var(--color3);
     }
     .ctrl-icons:hover {
