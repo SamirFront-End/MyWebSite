@@ -1,0 +1,15 @@
+.school {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+/* ===>>> SCREEN TABLET <<<=== */
+@media  (max-width: 1115px) {
+    .school {
+        width: 40%;
+        margin: 10px;
+    }
+}
