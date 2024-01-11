@@ -1,0 +1,7 @@
+.contact-footer {
+    font-family: var(--font4);
+    text-align: center;
+}
+.a-menu-footer, .fa-envelope-open-text {
+    color: var(--color5);
+}

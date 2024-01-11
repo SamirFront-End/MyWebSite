@@ -1,0 +1,16 @@
+.subfooter-creator {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+.mark {
+    width: 15%;
+    margin-top: 15px;
+}
+
+/* ===>>> SCREEN TABLET <<<=== */
+@media (max-width: 768px){
+    .mark {
+        width: 35%;
+    }
+}
