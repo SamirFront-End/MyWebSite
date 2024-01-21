@@ -1,5 +1,4 @@
 .container-carousel {
-    /* background-color: var(--color2); */
     position: relative;
     display: grid;
     grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
@@ -9,8 +8,16 @@
     display: none;
 }
 
-/* ===>>> SCREEN TABLET/MOBILE <<<=== */
-@media (max-width: 992px) {
+/* ===>>> SCREEN TABLET <<<=== */
+@media (min-width: 769px) and (max-width: 1115px) {
+    .container-carousel {
+        grid-template-columns: 45% 45%;
+        grid-gap: 3.3%;
+    }
+}
+
+/* ===>>> SCREEN MOBILE <<<=== */
+@media (max-width: 768px) {
     .container-carousel {
         width: 400%;
         grid-template-columns: 20% 20% 20% 20%;

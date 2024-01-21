@@ -1,0 +1,18 @@
+.subscrition-frm {
+    background-image: url(../../../images/Cloudy_subscription.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.header-subscription {
+    width: 50%;
+    margin: auto;
+    /* background-color: red; */
+}
+.image-header-subscription {
+    width: 100%;
+}

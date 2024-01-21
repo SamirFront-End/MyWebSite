@@ -1,7 +1,7 @@
 .header-card {
     display: flex;
     justify-content: center;
-    max-height: 40%;
+    height: 40%;
 }
 .container-img-card {
     width: 60%;

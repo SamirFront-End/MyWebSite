@@ -19,7 +19,7 @@
 @media (min-width: 769px) and (max-width: 1115px) {
     .services-section {
         top: 850px;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     .container-controls{
         display: block;
