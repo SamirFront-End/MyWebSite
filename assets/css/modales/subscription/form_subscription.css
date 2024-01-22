@@ -2,17 +2,18 @@
     background-image: url(../../../images/Cloudy_subscription.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 90%;
-    margin: 20px auto;
+    width: 30%;
+    margin: 100px auto;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+    position: relative;
 }
 .fa-circle-xmark {
     position: absolute;
     font-size: x-large;
-    top: 6.8px;
-    left: 6.8px;
+    top: -10px;
+    left: -10px;
     background-color: var(--color5);
     border-radius: 50%;
     color: var(--color1);
@@ -60,4 +61,19 @@
 .modal-btn-subscription:hover {
     cursor: pointer;
     background-color: var(--color3);
+}
+
+/* ===>>> SCREEN TABLET <<<=== */
+@media (min-width: 769px) and (max-width: 1115px) {
+    .subscrition-frm {
+        width: 50%;
+        margin: 200px auto;
+    }
+}
+
+/* ===>>> SCREEN MOBILE <<<=== */
+@media (max-width: 768px) {
+    .subscrition-frm {
+        width: 90%;
+    }
 }
