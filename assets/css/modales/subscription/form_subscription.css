@@ -3,16 +3,61 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 90%;
-    margin: auto;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
 }
+.fa-circle-xmark {
+    position: absolute;
+    font-size: x-large;
+    top: 6.8px;
+    left: 6.8px;
+    background-color: var(--color5);
+    border-radius: 50%;
+    color: var(--color1);
+}
+.fa-circle-xmark:hover {
+    cursor: pointer;
+    color: var(--color2);
+    font-weight: bolder;
+}
 .header-subscription {
     width: 50%;
-    margin: auto;
-    /* background-color: red; */
+    margin: 40px auto;
 }
 .image-header-subscription {
     width: 100%;
+}
+.lbl-subscription {
+    width: 90%;
+    margin: auto;
+    font-family: var(--font2);
+    font-weight: bolder;
+}
+.npt-subscription {
+    width: 90%;
+    height: 30px;
+    margin: 10px auto;
+    border: none;
+    border-bottom: 1px solid var(--color4);
+    font-family: var(--font4);
+}
+.npt-subscription:focus {
+    outline: none;
+}
+.modal-btn-subscription {
+    width: 40%;
+    height: 40px;
+    background-color: var(--color5);
+    margin: 20px auto 20px auto;
+    border: none;
+    border-radius: 0;
+    font-family: var(--font2);
+    font-weight: bolder;
+    font-size: larger;
+}
+.modal-btn-subscription:hover {
+    cursor: pointer;
+    background-color: var(--color3);
 }
