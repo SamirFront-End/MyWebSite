@@ -4,6 +4,14 @@
     font-weight: bolder;
 }
 
+
+/* ===>>> SCREEN TABLET/MOBILE <<<=== */
+@media (min-width: 769px) and (max-width: 1115px) {
+    .p-call-action {
+        width: 80%;
+        margin: auto auto 40px auto;
+    }
+}
 /* ===>>> SCREEN TABLET/MOBILE <<<=== */
 @media (max-width: 768px) {
     .p-call-action {
