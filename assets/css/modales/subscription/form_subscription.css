@@ -36,6 +36,18 @@
     font-family: var(--font2);
     font-weight: bolder;
 }
+.title-modal-subscription {
+    width: 90%;
+    margin: 0px auto 30px auto;
+    font-family: var(--font2);
+    font-weight: bolder;
+    text-align: center;
+}
+/* .subtitle-modal-subscription {
+    width: 90%;
+    margin: 10px auto;
+    font-family: var(--font4);
+} */
 .npt-subscription {
     width: 90%;
     height: 30px;
@@ -53,7 +65,7 @@
     background-color: var(--color5);
     margin: 20px auto 20px auto;
     border: none;
-    border-radius: 0;
+    border-radius: 5px;
     font-family: var(--font2);
     font-weight: bolder;
     font-size: larger;

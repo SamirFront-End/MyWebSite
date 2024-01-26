@@ -4,23 +4,10 @@ footer {
     background-size: cover;
     width: 100%;
     height: 560px;
-    position: absolute;
-    top: 2710px;
     display: flex;
     justify-content: center;
     align-items:end;
+    margin-top: 100px;
 }
 
-/* ===>>> SCREEN TABLET <<<=== */
-@media (min-width: 769px) and (max-width: 1115px) {
-   footer {
-    top: 3450px;
-   }
-}
-
-/* ===>>> SCREEN MOBILE <<<=== */
-@media (max-width: 768px) {
-    footer {
-        top: 2730px;
-    }
-}
+/* ===>>> SCREEN MOBILE/TABLET <<<=== */

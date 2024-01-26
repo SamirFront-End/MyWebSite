@@ -9,17 +9,6 @@
 
 @media (max-width: 992px) {
     .container-call-action{
-        position: absolute;
-        left: 5%;
-        display: block;
-    }
-}
-
-@media (max-width: 768px) {
-    .container-call-action{
-        position: absolute;
-        top: 60%;
-        left: 5%;
-        display: block;
+        display: none;
     }
 }

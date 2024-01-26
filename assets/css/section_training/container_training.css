@@ -3,24 +3,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    position: absolute;
-    top: 2300px;
 }
 .title-training {
     font-family: var(--font1);
     text-align: center;
 }
 
-/* ===>>> SCREEN TABLET <<<=== */
-@media (min-width: 769px) and (max-width: 1115px) {
-    .container-training {
-        top: 2750px;
-    }
-}
-
-/* ===>>> SCREEN MOBILE <<<=== */
-@media (max-width: 768px) {
-    .container-training {
-        top: 2350px;
-    }
-}
+/* ===>>> SCREEN MOBILE/TABLET <<<=== */
