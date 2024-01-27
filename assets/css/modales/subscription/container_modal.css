@@ -18,3 +18,38 @@
     top: 0;
     transition: all .5s ease-in;
 }
+.container-modal-nomobile {
+    width: 70%;
+    max-height: 100%;
+    margin: 40px auto;
+    background-image: url(../../../images/Cloudy_nomobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container-image-nomobile {
+    background-color: var(--color2);
+    display: flex;
+    justify-content: center;
+}
+.image-nomobile {
+    width: 70%;
+}
+
+/* ===>>> SCREEN TABLET <<<=== */
+@media (min-width: 769px) and (max-width: 1115px) {
+    .container-modal-nomobile {
+        width: 90%;
+    }
+}
+/* ===>>> SCREEN MOBILE <<<=== */
+@media (max-width: 768px) {
+    .container-modal-nomobile {
+        display: block;
+        width: 80%;
+    }
+    .container-image-nomobile {
+        display: none;
+    }
+}

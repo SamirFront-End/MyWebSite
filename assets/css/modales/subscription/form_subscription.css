@@ -1,6 +1,6 @@
 .subscrition-frm {
     background-color: var(--color5);
-    width: 30%;
+    width: 100%;
     margin: 80px auto;
     display: flex;
     flex-direction: column;
@@ -30,18 +30,19 @@
     background-color: var(--color5);
 }
 .image-header-subscription {
+    display: none;
     width: 50%;
 }
 .title-modal-subscription {
     width: 90%;
-    margin: 10px auto 10px auto;
+    margin: 20px auto;
     font-family: var(--font2);
     font-weight: bolder;
     text-align: center;
 }
 .subtitle-modal-subscription {
     width: 90%;
-    margin: 0px auto 20px auto;
+    margin: 30px auto 20px auto;
     font-family: var(--font4);
     text-align: justify;
     font-size: small;
@@ -53,6 +54,7 @@
     background-image: url(../../../images/Cloudy_subscription.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 50px;
 }
 .lbl-subscription {
     width: 90%;
@@ -89,17 +91,22 @@
     color: var(--color4);
 }
 
-/* ===>>> SCREEN TABLET <<<=== */
-@media (min-width: 769px) and (max-width: 1115px) {
-    .subscrition-frm {
-        width: 50%;
-        margin: 200px auto;
-    }
-}
 
 /* ===>>> SCREEN MOBILE <<<=== */
 @media (max-width: 768px) {
     .subscrition-frm {
-        width: 90%;
+        width: 100%;
+    }
+    .image-header-subscription {
+        display: block;
+    }
+    .title-modal-subscription  {
+        margin: 10px auto 5px auto;
+    }
+    .subtitle-modal-subscription {
+        margin: 10px auto;
+    }
+    .footer-modal {
+        margin-top: 20px;
     }
 }
