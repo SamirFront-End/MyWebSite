@@ -1,0 +1,9 @@
+.slider {
+    background-color: blue;
+    margin-top: 80px;
+    width: 600%;
+    display: grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}

@@ -1,0 +1,113 @@
+.characterize {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url(../../../images/Cloudy.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-characterize {
+    width: 80%;
+}
+.container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-characterize {
+    text-align: center;
+    font-family: var(--font2);
+    width: 90%;
+    margin: 0px auto 10px auto;
+}
+.subtitle-characterize {
+    text-align: center;
+    font-family: var(--font4);
+    width: 90%;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+.footer-characterize {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+}
+.all-footer-char {
+    margin-top: 50px;
+}
+.btn-start-characterize {
+    width: 40%;
+    height: 50px;
+    background-color: var(--color1);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.btn-profile-characterize {
+    width: 90px;
+    height: 40px;
+    background-color: var(--color1);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.btn-next-char {
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    background-color: var(--color1);
+    color: var(--color5);
+    font-family: var(--font2);
+    font-weight: bolder;
+    font-size: medium;
+}
+.btn-start-characterize:hover, .btn-profile-characterize:hover, .btn-next-char:hover {
+    cursor: pointer;
+    background-color: var(--color2);
+}
+.fa-circle-left {
+    font-size: x-large;
+}
+.btn-content-start {
+    margin: auto;
+    text-align: center;
+    font-family: var(--font2);
+    font-weight: bolder;
+    color: var(--color5);
+}
+
+/* ===>>> SCREEN MOBILE <<<=== */
+@media (max-width: 767px) {
+    .characterize {
+        display: block;
+    }
+    .title-characterize {
+        margin-top: 20px;
+        font-size: large;
+    }
+    .subtitle-characterize {
+        text-align: justify;
+        margin-bottom: 20px;
+        font-size: small;
+    }
+    .btn-start-characterize {
+        width: 60%;
+        height: 40px;
+    }
+    .all-footer-char {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,36 @@
+.profile-char {
+    /* background-color: green; */
+    width: 100%;
+}
+.lbl-profile-char {
+    width: 90%;
+    margin: 0 5%;
+    font-family: var(--font2);
+    font-size: small;
+    font-weight: bolder;
+}
+.inp-profile-char {
+    width: 90%;
+    height: 24px;
+    margin: 10px 5%;
+    border: none;
+    font-family: var(--font2);
+}
+.inp-profile-char:focus, .txtmsg-characterize:focus {
+    outline: none;
+    border-bottom: 1px solid var(--color1);
+    background-color: var(--color3);
+}
+.txtmsg-characterize {
+    width: 90%;
+    margin: 0 5%;
+    border: none;
+    font-family: var(--font2);
+}
+
+/* ===>>> SCREEN MOBILE <<<=== */
+@media (max-width: 767px) {
+    .txtmsg-characterize {
+        height: 100px;
+    }
+}
